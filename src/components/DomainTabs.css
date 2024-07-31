@@ -35,6 +35,11 @@
     margin-top: 10px;
     background-color: #f9f9f9;
     margin-left: 2%;
+    min-height: 550px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    box-sizing: border-box;
 }
 
 .react-tabs__tab-panel--selected {
@@ -137,19 +142,19 @@
     }
 }
 
-
 @media (max-width: 576px) and (min-width: 330px) {
     .domain-content {
         grid-template-columns: 1fr;
     }
     .react-tabs__tab {
-        padding: 10px 10px;
+        padding: 10px 15px;
         font-size: 12px;
         flex: 1 0 50%;
         text-align: left;
     }
     .react-tabs__tab-panel {
         width: 85%;
+        margin-left: 7%;
     }
     .domain-item button {
         width: 90%;
