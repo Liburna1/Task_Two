@@ -4,9 +4,9 @@
     margin: 10px 0;
     overflow: hidden;
     transition: max-height 0.3s ease-in-out;
-    margin-left: 5%;
+    margin-left: 3%;
 }
-  
+
 .toggle-header {
     padding: 15px;
     font-weight: bold;
@@ -16,19 +16,89 @@
     align-items: center;
     transition: background-color 0.3s;
 }
-  
+
 .toggle-header:hover {
     background-color: #e9e9e9;
 }
-  
+
 .toggle-content {
     padding: 15px;
     background-color: #fff;
     border-top: 1px solid #ddd;
     color: #333;
 }
-  
+
 .arrow-icon {
     margin-left: 10px;
 }
-  
+@media (min-width:1200px) {
+    .toggle-section {
+        margin-left: 2%;
+        margin-right: 2%; 
+    }
+
+    .toggle-header {
+        padding: 10px; 
+    }
+
+    .toggle-content {
+        padding: 10px; 
+    }
+
+    .arrow-icon {
+        margin-left: 5px; 
+    }
+}
+
+@media (max-width: 1200px) {
+    .toggle-section {
+        margin-left: 2%;
+        margin-right: 2%; 
+    }
+
+    .toggle-header {
+        padding: 10px; 
+    }
+
+    .toggle-content {
+        padding: 10px; 
+    }
+
+    .arrow-icon {
+        margin-left: 5px;
+    }
+}
+
+@media (max-width: 768px) {
+    .toggle-section {
+        margin-left: 2%;
+        margin-right: 2%; 
+    }
+
+    .toggle-header {
+        padding: 10px; 
+    }
+
+    .toggle-content {
+        padding: 10px;
+    }
+
+    .arrow-icon {
+        margin-left: 5px; 
+    }
+}
+
+
+@media (max-width: 576px) {
+    .toggle-header {
+        font-size: 14px; 
+    }
+
+    .toggle-content {
+        font-size: 14px;
+    }
+
+    .arrow-icon {
+        font-size: 12px; 
+    }
+}
